@@ -1,24 +1,27 @@
 * {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.toolbar {
+.navbar {
   display: flex;
   align-items: center;
-  margin-top: 70px;
-  margin-left: 26px;
+  justify-content: space-between;
+  padding: 8%;
 }
 
-.mylogo {
-  align-content: center;
-}
-
-.menu {
-  margin-left: 300px;
-}
-
-.headline {
-  margin-top: 40px;
+main {
+  background-image: url("./images/header-bg.png");
+  width: 95%;
+  height: 87vh;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 2px solid white;
+  border-bottom: 2px solid #cfd8dc;
+  border-radius: 0 0 0 100px;
 }
 
 #container-one {
@@ -26,124 +29,41 @@
   flex-direction: row;
 }
 
-.first {
-  display: flex;
-  flex-direction: column;
-}
-
-.rect-6 {
-  width: 15px;
-}
-
-.ell-11 {
-  margin-top: -30px;
-}
-
-.second {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  margin-top: 70px;
-}
-
-.ell-5 {
-  width: 11px;
-  height: 10px;
-  margin-top: -10px;
-}
-
-.ell-8 {
-  margin-left: 130px;
-}
-
-.fourth {
-  display: flex;
-  flex-direction: column;
-  margin-left: 85px;
-}
-
-.ell-3 {
-  width: 60px;
-  margin-left: 50px;
-  margin-top: -45px;
-}
-
 .introduction {
-  font-size: 65px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #172b4d;
 }
 
 .profession {
-  font-size: 25px;
-  word-wrap: break-word;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 10%;
 }
 
 .motto {
   font-size: 25px;
   color: #7f8cff;
+  margin-top: 10%;
 }
 
-#container-two {
+.headline {
   margin-left: 20px;
-  margin-top: -120px;
+  margin-top: 120px;
 }
 
-@media (min-width: 675px) {
-  body {
-    background-color: beige;
-  }
+.social-media {
+  margin-bottom: 200px;
 }
 
-.card-one {
-  border: 2px solid #fff;
-  width: 34%;
-  margin: 0 auto;
-}
-
-.linkedin {
-  margin-left: 20px;
-}
-
-.vector-1 {
-  margin-left: 20px;
-}
-
-.vector-2 {
-  margin-left: 20px;
-}
-
-.vector-3 {
-  margin-left: 20px;
-}
-
-#container-three {
+.social-media ul {
   display: flex;
-  margin-top: 40px;
-  margin-left: 50px;
+  align-items: center;
 }
 
-.fifth {
-  display: flex;
-  flex-direction: column;
-  margin-left: 130px;
-}
-
-.sixth {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  margin-top: -110px;
-}
-
-.ell-15 {
-  height: 20px;
-}
-
-.ell-4 {
-  width: 20px;
-  margin-left: 80px;
-}
-
-.rect-5 {
-  width: 100px;
-  margin-top: -30px;
+.icons {
+  padding: 20px 20px 0 0;
 }
