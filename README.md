@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqWBN13MbhJTPCSB_ZgrU6eQfynP4St2V8Q&usqp=CAU" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello Microverse Project</b></h3>
+  <h3><b>Portfolio-setup-and-mobile-first</b></h3>
 
 </div>
 
@@ -117,7 +117,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/gitabiy/Hello-Microverse.git
+  git clone https://github.com/gitabiy/Portfolio-setup-and-mobile-first.git
 ```
 
 ### Install
