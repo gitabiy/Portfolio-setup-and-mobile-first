@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello microverse project <a name="about-project"></a>
+# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
 > This is my first microverse project. I created using HTML and CSS.
 
