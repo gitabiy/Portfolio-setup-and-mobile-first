@@ -18,7 +18,7 @@ main {
   height: 87vh;
   background-color: white;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   border: 2px solid white;
   border-bottom: 2px solid #cfd8dc;
   border-radius: 0 0 0 100px;
@@ -133,8 +133,11 @@ main {
   flex-direction: row;
 }
 
-.lang {
+#lang {
   margin-left: 5px;
+}
+
+.lang {
   background: #ebebff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -159,36 +162,11 @@ main {
   border: 1px solid #396df2;
   border-radius: 16px;
   margin-top: 20px;
-  margin-left: 10px;
   padding: 16px;
-  width: 35%;
+  width: 50%;
 }
 
-.card-one {
-  margin-left: 20px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  background: #fff;
-  padding: 16px;
-}
-
-.card-two {
-  margin-left: 20px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  background: #fff;
-  padding: 16px;
-}
-
-.card-three {
-  margin-left: 20px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  background: #fff;
-  padding: 16px;
-}
-
-.card-four {
+.card {
   margin-left: 20px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -216,6 +194,10 @@ main {
   margin-top: 20px;
 }
 
+#js {
+  margin-left: 10px;
+}
+
 .lg {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -234,11 +216,19 @@ main {
   margin-left: 10px;
 }
 
+#about-me {
+  margin-left: 20px;
+}
+
 .about-myself {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 40px;
+  border: 1px solid #dfe1e6;
+  border-top-right-radius: 100px;
+  background: #fff;
+  width: 430px;
 }
 
 .icon {
@@ -267,9 +257,8 @@ main {
   color: #396df2;
   border: 1px solid #396df2;
   border-radius: 16px;
-  margin-left: 10px;
   padding: 16px;
-  width: 38%;
+  width: 50%;
 }
 
 .me {
