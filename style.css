@@ -75,6 +75,7 @@ main {
 .canopy-backend ul {
   display: flex;
   align-items: center;
+  margin-top: 8px;
 }
 
 .canopy {
@@ -131,6 +132,7 @@ main {
 .dev-lang ul {
   display: flex;
   flex-direction: row;
+  margin-top: 8px;
 }
 
 #lang {
@@ -147,7 +149,7 @@ main {
   line-height: 16px;
   letter-spacing: 0.03em;
   height: 24px;
-  padding: 4px 12px;
+  padding: 12px 12px 4px 12px;
   align-items: center;
   color: #6070ff;
 }
@@ -158,6 +160,7 @@ main {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  background-color: #fff;
   color: #396df2;
   border: 1px solid #396df2;
   border-radius: 16px;
@@ -220,11 +223,20 @@ main {
   margin-left: 20px;
 }
 
+.multi-post {
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 92%;
+  margin-top: 8px;
+}
+
 .about-myself {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 40px;
+  margin-top: 100px;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 100px;
   background: #fff;
@@ -259,6 +271,7 @@ main {
   border-radius: 16px;
   padding: 16px;
   width: 50%;
+  background-color: #fff;
 }
 
 .me {
@@ -267,6 +280,7 @@ main {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-top: 100px;
 }
 
 .hello {
@@ -321,7 +335,7 @@ main {
 }
 
 button:hover {
-  background-color: #7a869a;
+  background-color: #1e90ff;
 }
 
 .fa {
