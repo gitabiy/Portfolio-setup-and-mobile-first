@@ -67,3 +67,270 @@ main {
 .icons {
   padding: 20px 20px 0 0;
 }
+
+.img-1 {
+  border-radius: 8px;
+}
+
+.canopy-backend ul {
+  display: flex;
+  align-items: center;
+}
+
+.canopy {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  width: 55px;
+  height: 16px;
+  color: #344563;
+}
+
+.counter {
+  margin-left: 10px;
+}
+
+.back-end {
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 88px;
+  height: 16px;
+}
+
+.date {
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.daily-read {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.dev-lang ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang {
+  margin-left: 5px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  height: 24px;
+  padding: 4px 12px;
+  align-items: center;
+  color: #6070ff;
+}
+
+.see-pr {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 16px;
+  width: 35%;
+}
+
+.card-one {
+  margin-left: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+  padding: 16px;
+}
+
+.card-two {
+  margin-left: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+  padding: 16px;
+}
+
+.card-three {
+  margin-left: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+  padding: 16px;
+}
+
+.card-four {
+  margin-left: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+  padding: 16px;
+}
+
+.works {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.lang-drop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.js {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.lg {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  left: 12px;
+}
+
+.side-drop {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0;
+  border-color: #dfe1e6;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+  margin-top: 30px;
+}
+
+.resume {
+  margin-top: -200px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  margin-left: 10px;
+  padding: 16px;
+  width: 38%;
+}
+
+.me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.hello {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  gap: 20px;
+  background-image: url("./images/header-bg.png");
+  text-align: center;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 2px solid white;
+  border-radius: 100px 0 0 0;
+  height: 779px;
+  width: 400px;
+  margin-left: -20px;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.input {
+  height: 170px;
+  width: 360px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+}
+
+.ipsum {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.get-in {
+  margin-top: 20px;
+  height: 48px;
+  width: 142px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+}
+
+button:hover {
+  background-color: #7a869a;
+}
