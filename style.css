@@ -150,7 +150,6 @@ main {
   letter-spacing: 0.03em;
   height: 24px;
   padding: 12px 12px 4px 12px;
-  align-items: center;
   color: #6070ff;
 }
 
@@ -335,7 +334,12 @@ main {
 }
 
 button:hover {
-  background-color: #1e90ff;
+  background-color: #6070ff;
+  color: #4053fc;
+}
+
+button:active {
+  background-color: #2230d2;
 }
 
 .fa {
