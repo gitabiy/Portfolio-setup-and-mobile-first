@@ -157,7 +157,7 @@ color: #344563;
 
 .dev-lang ul {
   display: flex;
-  margin-top: 8px;
+  margin-top: 40px;
   gap: 4px;
 }
 
@@ -171,7 +171,7 @@ color: #344563;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 16px;
   letter-spacing: 0.03em;
   height: 24px;
@@ -202,8 +202,8 @@ color: #344563;
   padding: 16px;
   width: 85%;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  /*flex-direction: col;*/
+  gap: 40px;
 
 
 }
@@ -467,8 +467,8 @@ button:active {
 @media only screen and (min-width: 768px) {
   /* For mobile phones: */
   .card{
-    
-    flex-direction: row;
+    display: flex;
+    /*flex-direction: row;*/
     margin: auto;
   }
   .about-myself{
