@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,12 +15,8 @@
   <header >  
     <nav class="navbar" >
       <a href=""><img class="mylogo" src="images\My Logo.png"  alt="My Logo"></a>
-      <ul>
-       
-        
-        <li>Menu</li>
-    </ul>      
-  </nav>   
+      <a href=""><img src="images\Union.png" alt="Menu"></a>             
+   </nav>   
         <nav class="navbard" >
             <a href=""><img class="mylogo" src="images\My Logo.png"  alt="My Logo"></a>
             <ul>
@@ -30,12 +27,37 @@
         </nav>       
   </header>
   <main>
-    <section class="headline">
-           
+    <section class="headline-mobile">
+      <div class="container-one">
+        <h1 class="introduction">
+          I’m Abiy.<br>
+          Glad to see <br> you!
+        </h1>
+        <p class="profession">
+          I’m a software developer! I can help you<br> build a product , feature or website Look <br>through some of my work and<br> experience! If you like what you see and<br> have a project you need coded, don’t <br>hesitate to contact me.
+        </p>
+        <h3 class="motto" >
+          LET’S CONNECT
+        </h3>
+        <div class="social-media">
+          <ul>
+              <li><a ><img class="twitter icons"src="images\Vector.svg" alt="twitter"></a></li>
+              <li><a><img class="linkedin icons" src="images\Linkedin icon@2x (1).png" alt="linkedin"></a></li>
+              <li><a><img class="vector-1 icons" src="images\Vector (1).svg" alt=""></a></li>
+              <li><a><img class="vector-2 icons" src="images\Vector (2).svg" alt="github"><a></a></li>
+              <li><a><img class="vector-3 icons" src="images\Vector (3).svg" alt=""><a></li>
+          </ul>              
+        </div>
+        
+      </div>
+    </section>
+        
+    <section class="headline" id="headline-desktop">
+           <div class="container-one">
             
               <h1 class="introduction">
                 I’m Abiy.<br>
-                Glad to see <br> you!
+                Glad to see you!
               </h1>
               <p class="profession">
                 I’m a software developer! I can help you build a product , feature or website Look through <br>some of my work and experience! If you like what you see and have a project you need <br>coded, don’t hesitate to contact me.
@@ -52,14 +74,42 @@
                     <li><a><img class="vector-3 icons" src="images\Vector (3).svg" alt=""><a></li>
                 </ul>              
                
-              
+              </div>
             </div>
             
     </section>
     </section>
+    
   <!-- finish-mobile-version project starts here-->
   <section class="works">
-<div class="card">
+<div class="card-mobile">
+      <a href=""><img class="img-1" src="images\Snapshoot Portfolio.png" alt=""></a>
+  <h2>
+    Tonic
+  </h2>
+  <div class="canopy-backend">
+  <ul>
+  <li class="canopy">CANOPY</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="back-end">Back End Dev</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="date">2015</li>
+  </ul>
+</div>
+<p class="daily-read">A daily selection of privately <br>personalized reads; no accounts or<br> sign-ups required.</p>
+
+<div class="dev-lang">
+<ul>
+  <li class="lang">HTML</li>
+  <li class="lang" id="lang">CSS</li>
+  <li class="lang" id="lang">JavaScript</li>
+
+</ul>
+</div>
+<button class="see-pr" type="button">See project</button>
+</div>
+<div class="card" id="card-desktop">
+  
      <div class="top"> 
       <a href=""><img class="img-1" src="images\Snapshoot Portfolio4.png" alt=""></a>
     </div>
@@ -89,7 +139,34 @@
     <button class="see-pr" type="button">See project</button>
   </div>
 </div>
-<div class="card">
+<div class="card-mobile">
+  <a href=""><img class="img-1" src="images\Snapshoot Portfolio (1).png" alt=""></a>
+  <h2 class="multi-post">
+    Multi-Post<br>Stories
+  </h2>
+  <div class="canopy-backend">
+  <ul>
+  <li class="canopy">CANOPY</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="back-end">Back End Dev</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="date">2015</li>
+  </ul>
+</div>
+<p class="daily-read">A daily selection of privately <br>personalized reads; no accounts or<br> sign-ups required.</p>
+
+<div class="dev-lang">
+<ul>
+  <li class="lang">HTML</li>
+  <li class="lang" id="lang">CSS</li>
+  <li class="lang" id ="lang">JavaScript</li>
+
+</ul>
+</div>
+
+<button class="see-pr" type="button">See project</button>
+</div>
+<div class="card" id="card-desktop">
   <div class="top">
   <h3 class="multi-post">
     Multi-Post Stories
@@ -120,7 +197,34 @@
 <a href=""><img class="img-1" src="images\Snapshoot Portfolio (3).png" alt=""></a>
 </div>
 </div>
-<div class="card">
+<div class="card-mobile">
+  <a href=""><img class="img-1" src="images\Snapshoot Portfolio (2).png" alt=""></a>
+  <h2>
+    Tonic
+  </h2>
+  <div class="canopy-backend">
+  <ul>
+  <li class="canopy">CANOPY</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="back-end">Back End Dev</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="date">2015</li>
+  </ul>
+</div>
+<p class="daily-read">A daily selection of privately <br>personalized reads; no accounts or<br> sign-ups required.</p>
+
+<div class="dev-lang">
+<ul>
+  <li class="lang">HTML</li>
+  <li class="lang" id="lang">CSS</li>
+  <li class="lang" id="lang">JavaScript</li>
+
+</ul>
+</div>
+<button class="see-pr" type="button">See project</button>
+
+</div>
+<div class="card" id="card-desktop">
   <div class="top">
   <a href=""><img class="img-1" src="images\Snapshoot Portfolio.png" alt=""></a>
   </div>
@@ -152,7 +256,33 @@
 </div>
 <a href=""><img class="hand-cursor"src="images\hand-cursor 1.png" alt="hand-cursor"></a>
 </div>
-<div class="card">
+<div class="card-mobile">
+  <a href=""><img class="img-1" src="images\Snapshoot Portfolio (3).png" alt=""></a>
+  <h3 class="multi-post">
+    Multi-Post<br>Stories
+  </h3>
+  <div class="canopy-backend">
+  <ul>
+  <li class="canopy">CANOPY</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="back-end">Back End Dev</li>
+  <li class="counter"><img src="images\Counter.png" alt=""></li>
+  <li class="date">2015</li>
+  </ul>
+</div>
+<p class="daily-read">A daily selection of privately <br>personalized reads; no accounts or<br> sign-ups required.</p>
+
+<div class="dev-lang">
+<ul>
+  <li class="lang">HTML</li>
+  <li class="lang" id="lang">CSS</li>
+  <li class="lang" id="lang">JavaScript</li>
+
+</ul>
+</div>
+<button class="see-pr" type="button">See project</button>
+</div>
+<div class="card" id="card-desktop">
   <div class="top">
     <h2 class="multi-post">
       Uber Navigation
@@ -184,15 +314,15 @@
 </div>
 
 </div>
-
-
-
 </section>
 <section  class="about-myself">
   <div class="top">
 <h4 id="about-me" class="me">
   About Myself
 </h4>
+<p id="about-me"class="hello-desktop">
+  Hello I’m a software developer! I can help you build a<br>product , feature or website. Look through some of my<br> work and experience! If you like what you see and have <br>a project you need coded, don’t hesitate to contact me.
+</p>
 <p id="about-me"class="hello">
   Hello I’m a software developer! I can<br> help you build a product , feature or <br>website. Look through some of my work <br> and experience! If you like what you see <br>and have a project you need coded,<br> don’t hesitate to contact me.
 </p>
@@ -250,8 +380,12 @@
 <h2 class="contact-me" id="contact-form">
   Contact me
 </h2>
-<p id="contact-form">
+<p id="contact-form" class="contact-form-mobile">
   If you have an application you <br>are interested in developing, a <br>feature that you need built or a <br>project that needs coding.<br>
+I’d love to help with it!
+</p>
+<p class="contact-form-desktop" id="contact-form-desktop">
+  If you have an application you are interested in <br>developing, a feature that you need built or a project<br>that needs coding.
 I’d love to help with it!
 </p>
 <form class="form"action="https://formspree.io/f/{form_id}" method="post" id="contact-form">  

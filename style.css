@@ -11,18 +11,7 @@
   justify-content: space-between;
   padding: 8%;
 }
-/*.navbar ul{
-  display: flex;
-  gap: .625rem;
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 0.9375rem;
-line-height: 1.25rem;
-align-items: center;
-text-align: center;
-color: #344563;
-}*/
+
 .navbard {
   display: none;
 }
@@ -32,10 +21,7 @@ color: #344563;
   border-radius: 0 0 0 6.25rem;
 }
 
-/*#container-one {
-  display: flex;
-  flex-direction: row;
-}*/
+
 
 .introduction {
   font-size: 1.875rem;
@@ -49,7 +35,7 @@ color: #344563;
   font-weight: 400;
   line-height: 1.5rem;
   color: #344563;
- /* margin-top: 10%;*/
+ 
 }
 
 .motto {
@@ -58,19 +44,29 @@ color: #344563;
   margin-top: 10%;
 }
 
-#container-two {
-  margin-left: 20px;
-  margin-top: 120px;
-  width: 50%;
-}
 
-.headline {
-  background-image: url("./images/Header\ bg.png");
+
+.headline-mobile {
+  background-image: url("./images/header-bg.png");
   background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
+   margin-top: 100px; 
+   padding-top: 40px; 
   
 }
+.container-one{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 130px;
+  gap: 8px;
+  
+}
+#headline-desktop{
+  display: none;
+}
+
 
 .social-media {
   margin-bottom: 200px;
@@ -85,9 +81,13 @@ color: #344563;
   padding: 20px 20px 0 0;
 }
 
+
 .img-1 {
   border-radius: 8px;
-  width: 100%;
+ width: 100%;
+}
+#card-desktop {
+  display: none;
 }
 .top{
   width: 90%;
@@ -161,9 +161,7 @@ color: #344563;
   gap: 4px;
 }
 
-/*#lang {
-  margin-left: 5px;
-}*/
+
 
 .lang {
   background: #ebebff;
@@ -202,7 +200,6 @@ color: #344563;
   padding: 16px;
   width: 85%;
   display: flex;
-  /*flex-direction: col;*/
   gap: 40px;
 
 
@@ -274,6 +271,13 @@ color: #344563;
   background: #fff;
   width: 100%;
 }
+.hello-desktop{
+  display: none;
+}
+.contact-form-desktop{
+  display: none;
+}
+
 
 .icon {
   width: 48px;
@@ -293,6 +297,7 @@ color: #344563;
 
 .resume {
   margin-bottom: 30px;
+  margin-top: -500px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -301,8 +306,7 @@ color: #344563;
   color: #396df2;
   border: 1px solid #396df2;
   border-radius: 16px;
-  padding: 16px;
-  width: 50%;
+  padding: 16px;  
   background-color: #fff;
 }
 
@@ -426,7 +430,7 @@ button:active {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 200px;
+  margin-top: 100px;
   gap: 10px;
   background-image: url("./images/contact\ form\ shapes-mobile.png");
   text-align: center;
@@ -438,6 +442,7 @@ button:active {
   border-radius: 100px 0 0 0;
   height: 779px;
   width: 100%;
+  
 }
 
 #contact-form {
@@ -453,31 +458,52 @@ button:active {
 .home-indicator {
   width: 134px;
   height: 5px;
+  margin: auto;
   align-self: center;
   background: #0d151e;
   border-radius: 10px;
   position: absolute;
   left: calc(50% - 134px / 2 - 0.5px);
-  bottom: 8px;
+  bottom: 10px;
+  
+  
 }
 .hand-cursor{
   margin-top: 210px;
   margin-left: 10px;
 }
 @media only screen and (min-width: 768px) {
-  /* For mobile phones: */
+    .home-indicator{
+    display: none;
+  }
   .card{
     display: flex;
-    /*flex-direction: row;*/
+    
     margin: auto;
+  }
+  #card-desktop {
+    display: flex;
+  }
+  .card-mobile{
+    display: none;
   }
   .about-myself{
     
     flex-direction: row;
+    
+  }
+  .contact-form{
+    padding-bottom: 40px;
   }
   .headline{
     margin-left: 200px;
+    background-image: url("./images/Header\ bg.png");
+    background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+    
   }
+  
   .top{
     width: 90%;
   }
@@ -487,13 +513,32 @@ button:active {
   .about-myself .bottom{
     margin-top: 70px;
     margin-left: -400px;
-    padding-right: 100px;
+    padding-right: 10px;
     width: 50%;
   }
   
   .about-myself .top{
-margin-left: 100px;
+margin-left: 50px;
+padding-right: 5px;
 
+
+
+  }
+  .hello{
+    display: none;
+  }
+  .hello-desktop{
+    display: flex;
+  }
+  .contact-form-mobile{
+    display: none;
+  }
+#contact-form-desktop{
+    display: flex;
+    margin:auto;
+  }
+  .contact-form{
+    background-image: url(./images/contact\ form\ background\ shapes.png);
   }
   .navbar {
     display: none;
@@ -517,7 +562,16 @@ margin-left: 100px;
   color: #344563;
   
   }
-  
+  #headline-desktop{
+    display: flex;
+  }
+  .headline-mobile{
+    display: none;
+  }
+  .get-in{
+margin: auto;
+border: none;
+  } 
   
 
 }
