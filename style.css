@@ -23,6 +23,9 @@ align-items: center;
 text-align: center;
 color: #344563;
 }*/
+.navbard {
+  display: none;
+}
 
 .first-page {
   border: 1px solid #dfe1e6;
@@ -492,8 +495,17 @@ button:active {
 margin-left: 100px;
 
   }
-  navbar ul{
+  .navbar {
+    display: none;
+  }
+  .navbard{
     display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8%;
+  }
+  .navbard ul {
+    display: flex;    
     gap: .625rem;
   font-family: 'Poppins',sans-serif;
   font-style: normal;
@@ -503,6 +515,7 @@ margin-left: 100px;
   align-items: center;
   text-align: center;
   color: #344563;
+  
   }
   
   
