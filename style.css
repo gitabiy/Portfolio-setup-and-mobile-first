@@ -11,30 +11,42 @@
   justify-content: space-between;
   padding: 8%;
 }
+/*.navbar ul{
+  display: flex;
+  gap: .625rem;
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 0.9375rem;
+line-height: 1.25rem;
+align-items: center;
+text-align: center;
+color: #344563;
+}*/
 
 .first-page {
   border: 1px solid #dfe1e6;
-  border-radius: 0 0 0 100px;
+  border-radius: 0 0 0 6.25rem;
 }
 
-#container-one {
+/*#container-one {
   display: flex;
   flex-direction: row;
-}
+}*/
 
 .introduction {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  line-height: 42px;
+  line-height: 2.625rem;
   color: #172b4d;
 }
 
 .profession {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #344563;
-  margin-top: 10%;
+ /* margin-top: 10%;*/
 }
 
 .motto {
@@ -46,13 +58,15 @@
 #container-two {
   margin-left: 20px;
   margin-top: 120px;
+  width: 50%;
 }
 
 .headline {
-  background-image: url("./images/header-bg.png");
+  background-image: url("./images/Header\ bg.png");
   background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
+  
 }
 
 .social-media {
@@ -70,12 +84,21 @@
 
 .img-1 {
   border-radius: 8px;
+  width: 100%;
+}
+.top{
+  width: 90%;
+}
+.bottom{
+  width: 90%;
 }
 
 .canopy-backend ul {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
   margin-top: 8px;
+  gap: 15px;
 }
 
 .canopy {
@@ -98,7 +121,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 16px;
   color: #7a869a;
   flex: none;
@@ -119,12 +142,12 @@
 }
 
 .daily-read {
-  width: 295px;
+  width: 90%x;
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 24px;
   color: #344563;
 }
@@ -132,11 +155,12 @@
 .dev-lang ul {
   display: flex;
   margin-top: 8px;
+  gap: 4px;
 }
 
-#lang {
+/*#lang {
   margin-left: 5px;
-}
+}*/
 
 .lang {
   background: #ebebff;
@@ -173,13 +197,19 @@
   border-radius: 16px;
   background: #fff;
   padding: 16px;
-  width: 70%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
 }
 
 .works {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 50px;
+ margin-top: -300px;
 }
 
 .lang-drop {
@@ -239,7 +269,7 @@
   border: 1px solid #dfe1e6;
   border-top-right-radius: 100px;
   background: #fff;
-  width: 90%;
+  width: 100%;
 }
 
 .icon {
@@ -259,7 +289,7 @@
 }
 
 .resume {
-  margin-top: -200px;
+  margin-bottom: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -320,6 +350,7 @@
   margin-top: 10px;
   border-radius: 8px;
 }
+
 
 .message::placeholder {
   position: absolute;
@@ -403,7 +434,7 @@ button:active {
   border: 2px solid white;
   border-radius: 100px 0 0 0;
   height: 779px;
-  width: 90%;
+  width: 100%;
 }
 
 #contact-form {
@@ -425,4 +456,55 @@ button:active {
   position: absolute;
   left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
+}
+.hand-cursor{
+  margin-top: 210px;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .card{
+    
+    flex-direction: row;
+    margin: auto;
+  }
+  .about-myself{
+    
+    flex-direction: row;
+  }
+  .headline{
+    margin-left: 200px;
+  }
+  .top{
+    width: 90%;
+  }
+  .bottom{
+    width: 90%;
+  }
+  .about-myself .bottom{
+    margin-top: 70px;
+    margin-left: -400px;
+    padding-right: 100px;
+    width: 50%;
+  }
+  
+  .about-myself .top{
+margin-left: 100px;
+
+  }
+  navbar ul{
+    display: flex;
+    gap: .625rem;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+  }
+  
+  
+
 }
