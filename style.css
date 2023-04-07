@@ -153,7 +153,7 @@
 
 .dev-lang ul {
   display: flex;
-  margin-top: 40px;
+  margin-top: 5px;
   gap: 4px;
 }
 
@@ -181,9 +181,9 @@
   color: #396df2;
   border: 1px solid #396df2;
   border-radius: 16px;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 16px;
-  width: 50%;
+  width: 130px;
 }
 
 .card {
@@ -240,10 +240,6 @@
   margin-left: 10px;
 }
 
-#about-me {
-  margin-left: 20px;
-}
-
 .multi-post {
   font-family: 'Poppins', sans-serif;
   font-style: bold;
@@ -262,6 +258,20 @@
   border-top-right-radius: 100px;
   background: #fff;
   width: 100%;
+}
+
+.about-myself .top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.about-myself .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
 }
 
 .hello-desktop {
@@ -289,8 +299,6 @@
 }
 
 .resume {
-  margin-bottom: 30px;
-  margin-top: -500px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -301,6 +309,7 @@
   border-radius: 16px;
   padding: 16px;
   background-color: #fff;
+  width: 200px;
 }
 
 .me {
@@ -321,7 +330,7 @@
 }
 
 .contact-me {
-  margin-top: 100px;
+  margin-top: 150px;
   font-family: Poppins, sans-serif;
   font-style: bold;
   font-size: 40px;
@@ -340,7 +349,6 @@
   letter-spacing: 0;
   text-align: center;
   color: #ebebff;
-  margin-top: 20px;
 }
 
 .message {
@@ -348,7 +356,7 @@
   width: 95%;
   left: 0;
   margin-top: 10px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 
 .message::placeholder {
@@ -383,10 +391,9 @@
   position: relative;
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
+  border-radius: 2px;
   height: 48px;
   width: 95%;
-  margin-top: 10px;
 }
 
 .get-in {
@@ -432,7 +439,7 @@ button:active {
   background-position: right center;
   border: 2px solid white;
   border-radius: 100px 0 0 0;
-  height: 779px;
+  height: 800px;
   width: 100%;
 }
 
@@ -468,6 +475,31 @@ button:active {
     display: none;
   }
 
+  .javascript-lang {
+    display: flex;
+    gap: 4px;
+  }
+
+  .js {
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f9;
+    border-radius: 8px;
+    gap: 4px;
+    padding: 4px 20px 10px 4px;
+  }
+
+  .name-email {
+    width: 30%;
+    align-items: center;
+    margin: auto;
+  }
+
+  .message {
+    width: 30%;
+    margin: auto;
+  }
+
   .card {
     display: flex;
     margin: auto;
@@ -487,16 +519,17 @@ button:active {
     gap: 100px;
   }
 
-  /* .contact-form {
-    padding-bottom: 40px;
-  } */
-
   .headline {
-    margin-left: 200px;
+    margin-left: 35px;
     background-image: url("./images/Header\ bg.png");
     background-color: white;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
+  }
+
+  .container-one {
+    margin-left: 300px;
+    margin-top: 100px;
   }
 
   .top {
@@ -509,13 +542,24 @@ button:active {
 
   .about-myself .bottom {
     margin-top: 70px;
-    padding-right: 10px;
-    margin-right: 100px;
+    padding-right: 100px;
+    margin-right: 10px;
   }
 
   .about-myself .top {
-    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
     padding-right: 5px;
+    gap: 20px;
+  }
+
+  .about-myself .top button {
+    margin: none;
+  }
+
+  .resume {
+    margin-top: -200px;
   }
 
   .hello {
@@ -533,6 +577,7 @@ button:active {
   #contact-form-desktop {
     display: flex;
     margin: auto;
+    margin-top: 20px;
   }
 
   .contact-form {
@@ -548,7 +593,11 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8%;
+    margin-top: 10px;
+  }
+
+  .navbard .mylogo {
+    margin-left: 155px;
   }
 
   .navbard ul {
@@ -562,6 +611,7 @@ button:active {
     align-items: center;
     text-align: center;
     color: #344563;
+    margin-right: 155px;
   }
 
   #headline-desktop {
@@ -575,5 +625,6 @@ button:active {
   .get-in {
     margin: auto;
     border: none;
+    margin-bottom: 200px;
   }
 }
