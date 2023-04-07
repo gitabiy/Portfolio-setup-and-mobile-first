@@ -78,7 +78,9 @@
 .img-1 {
   border-radius: 8px;
   width: 100%;
+  
 }
+
 
 #card-desktop {
   display: none;
@@ -365,6 +367,7 @@
   right: 38px;
   top: 15px;
   bottom: 15px;
+  
 }
 
 .name-email::placeholder {
@@ -382,6 +385,7 @@
   align-items: center;
   color: #172b4d;
 }
+
 
 .form {
   margin-top: 20px;
@@ -474,7 +478,20 @@ button:active {
   .home-indicator {
     display: none;
   }
-
+  
+  
+.img-1:hover{
+  transform: scale(1.3);
+  }
+  input:hover::placeholder{
+    color: blue;
+    transform: translate(40px);
+    font-size: large;
+  }
+  textarea:hover::placeholder{
+    color:red;
+    transform: translate(40px);
+  }
   .javascript-lang {
     display: flex;
     gap: 4px;
@@ -518,6 +535,7 @@ button:active {
     flex-direction: row;
     gap: 100px;
   }
+  
 
   .headline {
     margin-left: 35px;
@@ -596,9 +614,7 @@ button:active {
     margin-top: 10px;
   }
 
-  .navbard .mylogo {
-    margin-left: 155px;
-  }
+  
 
   .navbard ul {
     display: flex;
@@ -613,6 +629,7 @@ button:active {
     color: #344563;
     margin-right: 155px;
   }
+
 
   #headline-desktop {
     display: flex;
