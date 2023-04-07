@@ -644,4 +644,15 @@ button:active {
     border: none;
     margin-bottom: 200px;
   }
+
+  .navbard .mylogo {
+    margin-left: 155px;
+    transform: rotate(15deg);
+  }
+
+  button:hover {
+    background-color: green;
+    color: yellow;
+    transform: scale(.7);
+  }
 }
