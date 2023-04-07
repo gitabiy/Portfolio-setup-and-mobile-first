@@ -186,6 +186,11 @@
   width: 130px;
 }
 
+#see-pr :hover{
+  background-color: yellow;
+  color: yellow;
+}
+
 .card {
   margin-left: 20px;
   border: 1px solid #dfe1e6;
@@ -626,5 +631,21 @@ button:active {
     margin: auto;
     border: none;
     margin-bottom: 200px;
+  }
+  
+  #card-desktop button :hover{
+    background-color: yellow;
+    color: yellow;
+  }
+
+  button:hover {
+    background-color: green;
+    color: yellow;
+    transform: scale(.7);
+  }
+
+  .navbard .mylogo {
+    margin-left: 155px;
+    transform: rotate(20deg);
   }
 }
