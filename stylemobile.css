@@ -1,0 +1,8 @@
+.card-mobile {
+  margin-left: 20px;
+  border: 0.0625rem solid #dfe1e6;
+  border-radius: 1rem;
+  background: #fff;
+  padding: 1rem;
+  width: 80%;
+}
