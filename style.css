@@ -650,10 +650,7 @@ button:active {
     margin-bottom: 200px;
   }
 
-  #card-desktop button :hover {
-    background-color: yellow;
-    color: yellow;
-  }
+
 
   .navbard .mylogo {
     margin-left: 155px;
