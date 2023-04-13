@@ -186,6 +186,11 @@
   width: 130px;
 }
 
+#see-pr :hover {
+  background-color: yellow;
+  color: yellow;
+}
+
 .card {
   margin-left: 20px;
   border: 1px solid #dfe1e6;
@@ -409,7 +414,7 @@
   line-height: 24px;
   background-color: #fff;
   text-align: center;
-  color: #6070ff;
+  color: #396df2;
 }
 
 button:hover {
@@ -480,13 +485,11 @@ button:active {
   }
 
   input:hover::placeholder {
-    color: blue;
     transform: translate(40px);
     font-size: large;
   }
 
   textarea:hover::placeholder {
-    color: red;
     transform: translate(40px);
   }
 
@@ -509,6 +512,15 @@ button:active {
     align-items: center;
     margin: auto;
   }
+
+  /* .form label{
+    display: block;
+    float: leftgo;
+  } */
+
+  /* label{
+    display: block;
+  } */
 
   .message {
     width: 30%;
@@ -548,11 +560,11 @@ button:active {
   }
 
   .top {
-    width: 90%;
+    width: 100%;
   }
 
   .bottom {
-    width: 90%;
+    width: 100%;
   }
 
   .about-myself .bottom {
@@ -570,9 +582,13 @@ button:active {
   }
 
   button:hover {
-    background-color: green;
-    color: yellow;
+    background-color: #6070ff;
+    color: #4053fc;
     transform: scale(0.7);
+  }
+
+  button:active {
+    background-color: #2230d2;
   }
 
   .about-myself .top button {
@@ -647,6 +663,6 @@ button:active {
 
   .navbard .mylogo {
     margin-left: 155px;
-    transform: rotate(15deg);
+    transform: rotate(20deg);
   }
 }
