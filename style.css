@@ -456,6 +456,7 @@ button:active {
   display: flex;
   flex-direction: column;
   gap: 10px;
+   
 }
 
 .home-indicator {
@@ -514,6 +515,13 @@ button:active {
     align-items: center;
     margin: auto;
   }
+ /* .form label{
+    display: block;
+    float: leftgo;
+  }*/
+  /*label{
+    display: block;
+  }*/
 
   .message {
     width: 30%;
@@ -553,11 +561,11 @@ button:active {
   }
 
   .top {
-    width: 90%;
+    width: 100%;
   }
 
   .bottom {
-    width: 90%;
+    width: 100%;
   }
 
   .about-myself .bottom {
