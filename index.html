@@ -14,8 +14,33 @@
  <section class="first-page">  
   <header >  
     <nav class="navbar" >
-      <a href=""><img class="mylogo" src="images\My Logo.png"  alt="My-logo"></a>
-      <a href=""><img src="images\Union.png" alt="Menu"></a>             
+      
+        <a href=""><img class="mylogo" src="images\My Logo.png"  alt="My-logo"></a>
+        
+        <div class="nav-menu1">
+          <a  class="close" alt="close" >X</a>
+        <ul class="nav-menu" id="nav-menu">
+          
+          <li class="nav-item">
+             <a href="#headline-mobile" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+             <a href="#about-me" class="nav-link" id="about">About</a>
+          </li>
+          <li class="nav-item">
+             <a href="#contact-form" class="nav-link">Contact</a>
+          </li>
+       </ul>
+      </div>
+       
+       <div><a href="#" class="hamburger"><img src="images\Union.png" alt="Menu" ></a>
+      
+      <!-- <a href="#" class="close"><img src="images\Union.png" alt="Menu" >X</a> -->
+    </div>
+   
+        
+         
+    
    </nav>   
         <nav class="navbard" >
             <a href=""><img class="mylogo" src="images\My Logo.png"  alt="My-logo"></a>
@@ -27,7 +52,7 @@
         </nav>       
   </header>
   <main>
-    <section class="headline-mobile">
+    <section class="headline-mobile" id="headline-mobile">
       <div class="container-one">
         <h1 class="introduction">
           I’m Abiy.<br>
@@ -402,5 +427,6 @@ I’d love to help with it!
 <img class="home-indicator" id="contact-form" src="\images\Home Indicator\Shape.png" alt="Home Indicator">
 </section>
   </main>
+  <script src="javascript.js"></script>
 </body>
 </html>
