@@ -520,17 +520,19 @@ button:active {
 }
 
 #nav-menu {
-  margin-left: -300px;
+  margin-left: -200px;
   display: flex;
   flex-direction: column;
 }
 
 .close {
-  margin-left: 400px;
+  margin-left: 300px;
   color: white;
-  border: 2px solid #67798e;
+
+  /* border: 2px solid #67798e; */
   height: 12px;
   width: 12px;
+  text-decoration: none;
 }
 
 .container {
@@ -546,10 +548,6 @@ button:active {
 .hamburger.active {
   display: none;
 }
-
-/* .close{
-  margin-right: 0;
-} */
 
 @media only screen and (min-width: 768px) {
   .home-indicator {

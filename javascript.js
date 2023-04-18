@@ -10,6 +10,6 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navMenu1.classList.remove('active');
 }));
 close.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu1.classList.remove('active');
+  hamburger.classList.toggle('active');
+  navMenu1.classList.toggle('active');
 });
