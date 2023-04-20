@@ -260,7 +260,6 @@
   color: yellow;
 }
 
-
 .cards {
   display: flex;
   flex-direction: column;
@@ -595,8 +594,7 @@ button:active {
 .close {
   margin-left: 300px;
   color: white;
-
- border: 2px solid #67798e; 
+  border: 2px solid #67798e;
   height: 12px;
   width: 12px;
   text-decoration: none;
@@ -617,11 +615,6 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
-<<<<<<< HEAD
-  
-
-=======
->>>>>>> 04fd31d262c5a7104b72fb8a4527c087919ba114
   .par-lang {
     display: flex;
     gap: 10px;
@@ -662,7 +655,6 @@ button:active {
     display: none;
   }
 
-  
   .block1 {
     width: 50%;
   }
@@ -714,21 +706,11 @@ button:active {
     margin: auto;
   }
 
-<<<<<<< HEAD
-  
-
-=======
->>>>>>> 04fd31d262c5a7104b72fb8a4527c087919ba114
   .message {
     width: 30%;
     margin: auto;
   }
 
-<<<<<<< HEAD
-  
-
-=======
->>>>>>> 04fd31d262c5a7104b72fb8a4527c087919ba114
   #card-desktop {
     display: flex;
   }
