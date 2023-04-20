@@ -432,4 +432,3 @@ for (let i = 0; i < popup.length; i += 1) {
   });
 }
 
-/// /////////////////popup for desktop////////////////
