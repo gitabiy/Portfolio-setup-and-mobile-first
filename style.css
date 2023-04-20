@@ -567,16 +567,6 @@ button:active {
   opacity: 0.95;
 }
 
-/* .bar1{
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  background-color: white;
-  color: red;
-} */
 .nav-link {
   margin-top: 30px;
   height: 24px;
@@ -629,18 +619,6 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
-  /* .card {
-    display: none;
-    margin-left: 20px;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    background: #fff;
-    padding: 16px;
-    width: 85%;
-    margin: auto;
-    gap: 20px;
-  } */
-
   .par-lang {
     display: flex;
     gap: 10px;
@@ -736,24 +714,10 @@ button:active {
     margin: auto;
   }
 
-  /* .form label{
-    display: block;
-    float: leftgo;
-  } */
-
-  /* label{
-    display: block;
-  } */
-
   .message {
     width: 30%;
     margin: auto;
   }
-
-  /* .card {
-    display: flex;
-    margin: auto;
-  } */
 
   #card-desktop {
     display: flex;
