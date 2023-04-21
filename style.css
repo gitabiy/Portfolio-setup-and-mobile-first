@@ -11,6 +11,13 @@
   justify-content: space-between;
   padding: 8%;
 }
+.error-message {  
+  
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
 
 .navbard {
   display: none;
@@ -521,7 +528,7 @@ button:active {
   background-position: right center;
   border: 2px solid white;
   border-radius: 100px 0 0 0;
-  height: 800px;
+  height: 850px;
   width: 100%;
 }
 
@@ -842,7 +849,7 @@ button:active {
     margin-bottom: 200px;
   }
   #error-div{
-    color: red;
+    
     margin-top: -200px;
   }
 
@@ -850,4 +857,10 @@ button:active {
     margin-left: 155px;
     transform: rotate(20deg);
   }
+ /* .error-message{
+    color:red;
+border: #2230d2 solid 2px;
+margin-bottom: 60px;    
+  }*/
+
 }
