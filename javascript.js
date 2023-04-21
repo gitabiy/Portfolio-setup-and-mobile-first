@@ -262,7 +262,6 @@ const contact = document.querySelector('#contact');
 
 for (let i = 0; i < popup.length; i += 1) {
   popup[i].addEventListener('click', () => {
-
     const cardid = document.querySelectorAll('.cards')[i].id;
     header.classList.add('all');
     mainSection.classList.add('all');
