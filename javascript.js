@@ -431,4 +431,18 @@ for (let i = 0; i < popup.length; i += 1) {
     });
   });
 }
+// form validation
+
+const form = document.querySelector('form');
+const submit = document.querySelector('.get-in');
+const errordiv = document.getElementById('error-div');
+
+submit.addEventListener('click', (event) => {
+  if (form.email.value !== form.email.value.toLowerCase()) {
+    errordiv.innerHTML = '  <p class="error-message">! error: email must be in lower case for the form to be sent</p>';
+    event.preventDefault();
+  } else {
+    errordiv.innerHTML = '';
+  }
+});
 
