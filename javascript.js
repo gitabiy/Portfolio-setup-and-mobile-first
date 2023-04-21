@@ -13,6 +13,7 @@ close.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu1.classList.toggle('active');
 });
+
 /// //////////Popup-Window////AllCardsMobile/////AllCardsDesktop/////
 const work = document.querySelector('.works');
 const allCardsMobile = [
@@ -248,6 +249,7 @@ allCardsDesktop.forEach((value) => {
      `;
   work.append(cardd);
 });
+
 /// //////Popup-Window//////Mobile/////////Desktop/////
 const popup = document.querySelectorAll('.see-pr');
 
@@ -431,8 +433,8 @@ for (let i = 0; i < popup.length; i += 1) {
     });
   });
 }
-// form validation
 
+// form validation
 const form = document.querySelector('form');
 const submit = document.querySelector('.get-in');
 const errordiv = document.getElementById('error-div');
