@@ -197,8 +197,6 @@ allCardsMobile.forEach((value) => {
             
           </div>
         </div> 
-        
-        
      `;
   work.append(cardd);
 });
@@ -264,8 +262,8 @@ const contact = document.querySelector('#contact');
 
 for (let i = 0; i < popup.length; i += 1) {
   popup[i].addEventListener('click', () => {
+
     const cardid = document.querySelectorAll('.cards')[i].id;
-    // const cardDid = document.querySelectorAll('.card')[i].id;
     header.classList.add('all');
     mainSection.classList.add('all');
     works.classList.add('all');
@@ -447,8 +445,8 @@ submit.addEventListener('click', (event) => {
     errordiv.innerHTML = '';
   }
 });
-// local storage //
 
+// local storage
 const get = localStorage.getItem('store');
 
 if (get != null) {
