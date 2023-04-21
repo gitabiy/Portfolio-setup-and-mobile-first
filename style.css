@@ -330,7 +330,7 @@
 
 .multi-post {
   font-family: 'Poppins', sans-serif;
-  font-style: bold;
+  font-style: normal;
   font-size: 32px;
   line-height: 44px;
   line-height: 92%;
@@ -420,12 +420,11 @@
 .contact-me {
   margin-top: 150px;
   font-family: Poppins, sans-serif;
-  font-style: bold;
+  font-style: normal;
   font-size: 40px;
   line-height: 52px;
   line-height: 87%;
   text-align: center;
-  vertical-align: center;
   color: #fff;
 }
 
@@ -780,7 +779,7 @@ button:active {
   }
 
   .about-myself .top button {
-    margin: none;
+    margin-bottom: 10px;
   }
 
   .resume {
