@@ -11,8 +11,8 @@
   justify-content: space-between;
   padding: 8%;
 }
-.error-message {  
-  
+
+.error-message {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -212,7 +212,6 @@
   border-radius: 20px;
   width: 85%;
   height: 100%;
-  
 }
 
 #pop-close {
@@ -848,8 +847,8 @@ button:active {
     margin: auto;
     margin-bottom: 200px;
   }
-  #error-div{
-    
+
+  #error-div {
     margin-top: -200px;
   }
 
@@ -857,10 +856,10 @@ button:active {
     margin-left: 155px;
     transform: rotate(20deg);
   }
- /* .error-message{
+
+  /* .error-message{
     color:red;
 border: #2230d2 solid 2px;
-margin-bottom: 60px;    
-  }*/
-
+margin-bottom: 60px;
+  } */
 }
